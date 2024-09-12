@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import re
 
 # Load your dataset
-df = pd.read_csv(r'C:\Users\arunk\OneDrive\Desktop\pro_dash\Cleaned_dataset_gender_visualization.csv')
+df = pd.read_csv(r'Cleaned_dataset_gender_visualization.csv')
 
 # Create Dash app
 app = dash.Dash(__name__)
