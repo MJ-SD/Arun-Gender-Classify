@@ -357,5 +357,5 @@ def render_top_authors_by_gender(num_authors):
     return fig
 
 # Run the Dash app
-if _name_ == '_main_':
+if __name__ == '__main__':
     app.run_server(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 8050)))
